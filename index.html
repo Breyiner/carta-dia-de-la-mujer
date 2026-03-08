@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carta para ti ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- LOCK SCREEN -->
+  <div class="lock-container active" id="lockContainer">
+    <div class="lock-screen">
+      <h1 class="lock-title">Desbloquea tu sorpresa</h1>
+      <p class="lock-subtitle">Ingresa tu PIN secreto (4 dígitos)</p>
+      
+      <div class="pin-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <div class="pin-keypad">
+        <button class="key-btn" data-key="1">1</button>
+        <button class="key-btn" data-key="2">2</button>
+        <button class="key-btn" data-key="3">3</button>
+        <button class="key-btn" data-key="4">4</button>
+        <button class="key-btn" data-key="5">5</button>
+        <button class="key-btn" data-key="6">6</button>
+        <button class="key-btn" data-key="7">7</button>
+        <button class="key-btn" data-key="8">8</button>
+        <button class="key-btn" data-key="9">9</button>
+        <button class="key-btn clear-btn" data-action="clear">⌫</button>
+        <button class="key-btn" data-key="0">0</button>
+        <button class="key-btn ok-btn" data-action="ok">✔</button>
+      </div>
+
+      <p class="lock-hint" id="lockHint">Toca los números...</p>
+    </div>
+  </div>
+
+  <!-- LETTER SCREEN -->
+  <div class="letter-container hidden" id="letterContainer">
+    <div class="letter-screen">
+
+      <!-- Título dentro del flujo normal, encima de la card -->
+      <div class="page-title" id="pageTitle">
+        <span class="title-main">Día Internacional de la Mujer</span>
+        <span class="title-date">8 de marzo</span>
+      </div>
+
+      <div class="letter-card">
+        <h2 class="letter-title">Mi amor más preciosa</h2>
+        
+        <div class="letter-body">
+          <p class="letter-text">
+            Mi amor, hoy quiero celebrar en este día de la mujer, lo magnífica que eres. 
+            En tan poco tiempo me he dado cuenta de varias virtudes tuyas que me motivan constantemente a ser un mejor hombre para ti 🙏. 
+            Gracias por ser un apoyo constante para mí, estar al pendiente incluso cuando yo no lo hago; siempre que me dedicas tiempo, 
+            estás ahí para escucharme. Eres bondadosa, risueña, cariñosa, de buen corazón y de buen sentir; 
+            eres todo aquello que no estaba buscando pero que siempre necesité 😊.
+          </p>
+          <p class="letter-text">
+            Gracias por todo, mi reina preciosa; eres de lo más importante en mi vida. 
+            Yo soy alguien súper detallista que siempre quiere demostrar las cosas con manualidades; 
+            sin embargo, trato de demostrarte esto con estas caritas virtuales 🥰. Te amo, mi amor; 
+            gracias por ser esa mujer que me apoya y que se esfuerza por lograr sus metas.
+          </p>
+          <p class="letter-text">
+            Quiero que sepas que yo te admiro mucho por el esfuerzo constante que estás haciendo con tus estudios y 
+            sé que lograrás todo lo que te propongas porque sé que eres capaz de todo. Te deseo lo mejor en este día, mi amor, 
+            y espero que sea un día lleno de alegrías y muchas bendiciones 🎉
+          </p>
+        </div>
+        
+        <div class="letter-footer">
+          <p class="letter-sign">Con todo mi cariño,<br><span class="signature-script">Tu poeta enamorado</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
